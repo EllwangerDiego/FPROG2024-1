@@ -1,2 +1,5 @@
 # FPROG2024-1
-Diego Ellwanger
+# Fundamentos de Programação 2024/1
+
+Nome: Diego Ellwanger
+Curso: Segurança da Informação
