@@ -8,10 +8,10 @@ print('')
 print('Seja bem vindo(a)', nome,'!!!')
 print('')
 
-idade = input ('Qual a sua idade? ')
+idade = float (input ('Qual a sua idade? '))
 
 if idade < 18:
-    print (nome), ('Você é menor de idade')
+    print (nome + ' você é menor de idade')
 
 else:
-    print (nome), ('Você é maior de idade')
+    print (nome + ' você é maior de idade')
