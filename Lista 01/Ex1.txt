@@ -1,0 +1,17 @@
+1. Javascript
+
+print('Hello World');
+
+2. C++
+
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Hello World";
+
+    return 0;
+}
+
+3. Perl
+print "Hello World";
