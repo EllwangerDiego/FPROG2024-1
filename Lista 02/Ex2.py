@@ -5,5 +5,6 @@ quantidade = float(input('Digite aqui a quantidade de dolares que você deseja c
 ValorFinal = dolar * quantidade
 print('')
 
-print ('USD', quantidade, 'sairá por R$ ', ValorFinal)
+ValorFinal1 = round (ValorFinal, 2)
+print ('USD', quantidade, 'sairá por R$ ', ValorFinal1)
 print('')
