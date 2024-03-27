@@ -4,6 +4,7 @@
 
 ValorLitro = 5.58
 
+print()
 print ('Boa tarde, o litro da gasolina está saindo por: R$ ',ValorLitro )
 print('')
 quantidade = float(input('Digite aqui o valor que você deseja abastecer: R$ '))
