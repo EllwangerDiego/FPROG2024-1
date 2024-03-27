@@ -5,7 +5,7 @@ print()
 Celsius = float(input('Digite aqui a temperatura em graus Celsius: '))
 print()
 
-F = Celsius * 9 //5 + 32
+F = Celsius * 9 / 5 + 32
 print(Celsius,'°C em Fahrenheit é de: ',F,'°F')
 print()
                 
