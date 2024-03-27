@@ -9,7 +9,7 @@ mediaA = round(mediaA, 2)
 print ('Sua média anual foi: ', mediaA)
 print('')
 
-if mediaA < 7:
+if mediaA < 6:
     print ('Você está abaixo da média :(')
     print('')
 else:
