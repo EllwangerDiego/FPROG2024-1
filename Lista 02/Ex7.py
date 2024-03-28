@@ -8,9 +8,7 @@ print()
 quantidade = passaros * 30
 
 kg = quantidade / 1000
-print('---------------------------------------------')
-print(quantidade)
-print('---------------------------------------------')
+
 
 if quantidade > 1000:    
     print('O total de ração diária necessária para alimentar seus pássaros é de: ', kg, 'kg')

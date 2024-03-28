@@ -196,7 +196,7 @@ def meio_do_jogo(EFGH):
     for i in range(5,10):
         resposta = input("\n"+nome+", você gostaria de mais uma carta?")
         resposta = resposta.upper()
-        if resposta == "NÃO":
+        if resposta == "nao":
             for j in range(5,10):
                 if mesa <17:
                     mamamias[j] = random.choice(baralho)
