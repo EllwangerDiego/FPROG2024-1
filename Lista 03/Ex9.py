@@ -23,47 +23,56 @@ print('5) Converter de Dólar para Euro')
 print('6) Converter de Dólar para Real')
 print()
 
-opcao = int(input('Digite aqui o número da operação que você deseje fazer: '))
-print()
+x = 1
+while x == 1:
 
-if opcao == 1:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = valor1 / euro
-    print('R$',valor1, 'ficará', valor2,'euros')
-    print()
-elif opcao == 2:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = valor1 / dolar
-    print('R$',valor1,'ficará USD', valor2)
-elif opcao == 3:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = euro / dolar
-    valor3 = valor1 / valor2
-    print (valor1 ,' euros, ficará USD', round (valor3,2))
-    print()
-elif opcao == 4:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = valor1 / euro
-    print(valor1, 'euros ficará R$', round(valor2,2 ))
-    print ()
-elif opcao == 5:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = dolar / euro
-    valor3 = valor1 / valor2
-    print ('USD', valor1 ,' ficará EUR', round (valor3,2))
-    print()
-elif opcao == 6:
-    valor1 = float(input('Digite aqui o valor que você deseja converter: '))
-    print()
-    valor2 = valor1 / dolar
-    print('USD', valor1, ' ficará R$', round(valor2,2 ))
-    print ()
 
-else:
-    print('Digite um número entre 1 e 6')
+    opcao = int(input('Digite aqui o número da operação que você deseje fazer: '))
     print()
+
+    if opcao == 1:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = valor1 / euro
+        print('R$',valor1, 'ficará', valor2,'euros')
+        print()
+        x = 2
+    elif opcao == 2:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = valor1 / dolar
+        print('R$',valor1,'ficará USD', valor2)
+        x = 2
+    elif opcao == 3:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = euro / dolar
+        valor3 = valor1 / valor2
+        print (valor1 ,' euros, ficará USD', round (valor3,2))
+        print()
+        x = 2
+    elif opcao == 4:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = valor1 / euro
+        print(valor1, 'euros ficará R$', round(valor2,2 ))
+        print ()
+        x = 2
+    elif opcao == 5:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = dolar / euro
+        valor3 = valor1 / valor2
+        print ('USD', valor1 ,' ficará EUR', round (valor3,2))
+        print()
+        x = 2
+    elif opcao == 6:
+        valor1 = float(input('Digite aqui o valor que você deseja converter: '))
+        print()
+        valor2 = valor1 / dolar
+        print('USD', valor1, ' ficará R$', round(valor2,2 ))
+        print ()
+        x = 2
+
+    
+        
