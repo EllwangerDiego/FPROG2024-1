@@ -1,3 +1,4 @@
+
 # Crie um programa para informar quais e quantas notas são necessárias para entregar o mínimo de
 # cédulas para um determinado valor informado pelo usuário considerando notas de R$ 100, R$ 50,
 # R$ 20, R$ 10 e R$ 5 e R$ 1. Seu programa deve mostrar apenas as notas utilizadas. Por exemplo, ao

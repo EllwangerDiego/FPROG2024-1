@@ -5,3 +5,23 @@
 # 2 - À vista no cartão de crédito, recebe 10% de desconto
 # 3 - Em duas vezes, preço normal de etiqueta sem juros
 # 4 - Em três vezes, preço normal de etiqueta mais juros de 10%
+
+print()
+ValorP = float(input("Digite aqui o valor total do produto: "))
+print()
+print("|--------------------------------------------|")
+print("|      QUAL SERÁ O MÉTODO DE PAGAMENTO?      | ") 
+print("|                                            | ") 
+print("|      1) À vista em dinheiro                | ")              
+print("|      2) À vista no cartão de crédito       |")
+print("|      3) Em duas vezes                      |")
+print("|      4) Em três vezes                      |")
+print("|--------------------------------------------|")
+print()
+opcao = int(input("Digite aqui um valor de 1-4 correspondente ao seu método de pagamento: "))
+print()
+
+if opcao == 1:
+    ValorD = ValorP * 0,15
+    ValorF = ValorP - ValorD
+    print("O valor final será: R$ ",ValorF)
