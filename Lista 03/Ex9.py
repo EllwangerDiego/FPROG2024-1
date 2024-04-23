@@ -73,6 +73,3 @@ while x == 1:
         print('USD', valor1, ' ficará R$', round(valor2,2 ))
         print ()
         x = 2
-
-    
-        

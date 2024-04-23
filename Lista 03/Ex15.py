@@ -18,10 +18,43 @@ print("|      3) Em duas vezes                      |")
 print("|      4) Em três vezes                      |")
 print("|--------------------------------------------|")
 print()
-opcao = int(input("Digite aqui um valor de 1-4 correspondente ao seu método de pagamento: "))
-print()
 
-if opcao == 1:
-    ValorD = ValorP * 0,15
-    ValorF = ValorP - ValorD
-    print("O valor final será: R$ ",ValorF)
+
+
+i = 1
+while i == 1:
+    opcao = int(input("Digite aqui um valor de 1-4 correspondente ao seu método de pagamento: "))
+    print()
+    if opcao == 1:
+        ValorD = ValorP * 0.15
+        ValorF = ValorP - ValorD
+        print("O valor final será: R$ ",ValorF)
+        i = 2
+        print()
+        
+    elif opcao == 2:
+        ValorD = ValorP * 0.10
+        ValorF = ValorP - ValorD
+        print("O valor final será: R$ ",ValorF)
+        i = 2
+        print()
+
+    elif opcao == 3:
+        ValorD = ValorP * 1
+        ValorF = ValorP 
+        V2 = ValorF / 2
+        i = 2
+        print("O valor final será: R$ ",ValorF)
+        print("Cada parcela ficara por: R$ ", V2)
+        print()
+
+    elif opcao == 4:
+        ValorD = ValorP * 1
+        ValorF = ValorP 
+        J = ValorF * 0.1
+        V3 = ValorF / 3
+        VD3 = V3 + J
+        i = 2
+        print("O valor final será: R$ ",ValorF)
+        print("Cada parcela ficara por: R$ ", VD3)
+        print()

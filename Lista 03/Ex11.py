@@ -10,18 +10,26 @@
 
 print()
 
-nota100 = 100
-nota50 = 50
-nota20 = 20
-nota10 = 10
-nota5 = 5
-nota1= 1
-
+notas = [100,50,20,10,5,1,0.5,0.10,0.05]
 venda = float(input('Digite aqui o valor total da compra: '))
 cliente = float(input('Digite aqui o valor recebido pelo cliente: '))
 troco = cliente - venda
+somatroco = [0,0,0,0,0,0,0,0,0]
+tamanhosomatroco = 0
 
-if cliente != venda:
-    print('Você deve dar R$', troco, 'de troco')
-    print()
-    
+
+
+for i in range(9):
+    while troco >= notas[i]:
+        somatroco[i]+=1
+        tamanhosomatroco+=1
+        troco -= notas[i]
+
+
+
+
+
+
+for i in range(9):
+        if somatroco[i] != 0:
+            print(str(somatroco[i]),"nota(s) de R$ ",str(notas[i]),".")
