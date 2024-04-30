@@ -8,5 +8,6 @@ def sorteio():
     print()
     sorteio = random.randint(inicio,final)
     print("O numero sorteado foi {}".format(sorteio))
+    print()
 
 sorteio()
