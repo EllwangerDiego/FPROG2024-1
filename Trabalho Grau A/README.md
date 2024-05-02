@@ -1,4 +1,4 @@
-O "Sketch Trabalho GrauA" É APENAS UM RASCUNHO DO TRABALHO, NÃO É A VERSÃO FINAL. A VERSÃO FINAL ESTA COM NOME: "Jogo da Vida - Diego Ellwanger"
+A VERSÃO FINAL ESTA COM NOME: "Jogo da Vida - Diego Ellwanger"
 
 INSTRUÇÕES PARA USO
 
