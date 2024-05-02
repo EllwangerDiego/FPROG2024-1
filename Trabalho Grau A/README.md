@@ -1,5 +1,7 @@
 A VERSÃO FINAL ESTA COM NOME: "Jogo da Vida - Diego Ellwanger"
 
+Feito por: Diego Ellwanger
+
 INSTRUÇÕES PARA USO
 
 1) Informar quantas pessoas irão jogar
