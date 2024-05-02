@@ -74,5 +74,7 @@ def movimentarHamster(posHamster):
     else:
         print('A corrida empatou')
         print()
+
+movimentarHamster(posHamster=0)
         
     
