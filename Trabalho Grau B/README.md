@@ -5,6 +5,7 @@ Nome: Diego Ellwanger
 Curso: Segurança da Informação
 
 INSTRUÇÕES PARA USO
+1. Baixar o arquivo "cadastro.csv", e adiciona-lo na mesma pasta que ficará salvo o programa.
 
 1) Escolher qual opção você deseja,
 2) Opção de número 1, adicinar as informações do felino, como nome, idade, raça, sexo etc.
